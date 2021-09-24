@@ -6,10 +6,14 @@ interface IComunicador {
 
     fun setContador(contador: Int)
 
+    fun ocultarBotaoZerar(valor: Boolean)
+
     fun somar()
 
     fun reduzir()
 
     fun zerarContador()
+
+
 
 }

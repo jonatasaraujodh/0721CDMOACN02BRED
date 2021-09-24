@@ -44,6 +44,10 @@ class ScreenActivity : AppCompatActivity(), IComunicador {
         fragmento02.setContador(contador)
     }
 
+    override fun ocultarBotaoZerar(valor: Boolean) {
+        fragmento04.ocultarBotao(valor)
+    }
+
     override fun somar() {
 //        fragmento02.somar()
         fragmento02.setContador(1)
