@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aula27</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_titulo_formulario">Cadastro de Usuário</string>
+    <string name="label_bt_cadastrar">CADASTRAR</string>
+    <string name="label_hint_senha">Senha</string>
+    <string name="label_hint_nome">Nome</string>
+    <string name="label_confirmar_dados">CONFIRMAR DADOS</string>
+</resources>

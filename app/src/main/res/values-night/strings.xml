@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_titulo_formulario">Cadastro de Usuário</string>
+    <string name="label_bt_cadastrar">CADASTRAR</string>
+    <string name="label_hint_senha">Senha</string>
+    <string name="label_confirmar_dados">CONFIRMAR DADOS</string>
+</resources>
