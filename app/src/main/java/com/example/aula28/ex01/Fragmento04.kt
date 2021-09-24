@@ -31,16 +31,16 @@ class Fragmento04 : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_fragmento04, container, false)
         botaZerar = view.findViewById(R.id.bt_zerar)
+        view.isVisible = false
 
         botaZerar.setOnClickListener {
-//            callback.zerarContador()
             callback.setContador(0)
             callback.contarClicks()
         }
         return view
     }
 
-    fun ocultarBotao(valor: Boolean){
+    fun ocultarFragmentoZerar(valor: Boolean){
 
         view?.isVisible = !valor
     }

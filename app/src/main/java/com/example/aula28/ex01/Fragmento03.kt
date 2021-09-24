@@ -29,16 +29,14 @@ class Fragmento03 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         val view = inflater.inflate(R.layout.fragment_fragmento03, container, false)
         botaoMenos = view.findViewById(R.id.bt_menos)
 
         botaoMenos.setOnClickListener {
-//            callback.reduzir()
             callback.setContador(-1)
             callback.contarClicks()
         }
         return view
     }
-
 }

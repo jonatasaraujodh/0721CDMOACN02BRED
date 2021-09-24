@@ -15,8 +15,6 @@ class Fragmento01 : Fragment() {
 
     private lateinit var callback: IComunicador
     private lateinit var botaoMais: Button
-    private lateinit var botaoMenos: Button
-    private var contador: Int = 0
 
     override fun onAttach(activity: Context) {
         super.onAttach(activity)
@@ -31,12 +29,11 @@ class Fragmento01 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         val view = inflater.inflate(R.layout.fragment_fragmento01, container, false)
         botaoMais = view.findViewById(R.id.bt_mais)
 
         botaoMais.setOnClickListener {
-//            callback.somar()
             callback.setContador(1)
             callback.contarClicks()
         }

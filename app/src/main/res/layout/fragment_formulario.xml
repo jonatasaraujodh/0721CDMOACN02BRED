@@ -18,7 +18,6 @@
         android:layout_marginTop="10dp"
         android:hint="@string/label_hint_nome"
         android:textColorHint="#8492A6"
-        app:hintTextColor="#8492A6"
         app:helperTextTextColor="#8492A6">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_form_nome"
@@ -41,7 +40,6 @@
         android:layout_marginTop="5dp"
         android:hint="Email"
         android:textColorHint="#8492A6"
-        app:hintTextColor="#8492A6"
         app:helperTextTextColor="#8492A6">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_form_email"
@@ -62,7 +60,6 @@
         android:layout_marginTop="5dp"
         android:hint="Senha"
         android:textColorHint="#8492A6"
-        app:hintTextColor="#8492A6"
         app:helperTextTextColor="#8492A6">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_form_senha"
@@ -82,7 +79,6 @@
         app:layout_constraintEnd_toEndOf="@id/til_form_email"
         android:hint="Senha"
         android:textColorHint="#8492A6"
-        app:hintTextColor="#8492A6"
         app:helperTextTextColor="#8492A6">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_form_confirma_senha"

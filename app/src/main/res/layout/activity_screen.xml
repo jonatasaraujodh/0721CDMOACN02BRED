@@ -31,7 +31,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"
-            android:background="@color/teal_700"/>
+            tools:background="@color/teal_700"/>
 
         <FrameLayout
             android:id="@+id/container_05_ex03"
